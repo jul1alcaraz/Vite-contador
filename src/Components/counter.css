@@ -1,0 +1,22 @@
+.contador {
+  background-color: rgb(211, 148, 209);
+  color: black;
+  align-items: center;    
+  justify-content: center;
+  flex-direction: column;
+  width: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row; /* 🔥 asegura que estén uno al lado del otro */
+  gap: 1rem;           /* espacio entre elementos */
+  align-items: center;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  justify-content: center;
+}
+
